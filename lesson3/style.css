@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+h2 {
+    color: orange;
+}
+
+p:first-letter {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+em {
+    color: white;
+    background-color: green;
+}
+
+ul li {
+    font-weight: bold;
+}
+
+ol li {
+    font-weight: normal;
+}
+
+.fruits {
+    color: gray;
+}
+
+.vegetables {
+    color: red;
+}
+
+.warehouse {
+    color: blue;
+}
+
+table {
+    text-align: center;
+    width: 400px;
+}
+tbody {
+    background-color: green;
+    color: white;
+}
+
+tbody td:first-child {
+    width: 100px;
+    text-align: left;
+    color: orange;
+    background-color: white;
+}

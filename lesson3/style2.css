@@ -1,0 +1,103 @@
+/* For Task2.html */
+
+p:first-of-type{
+    font-size: large;
+}
+p:last-of-type{
+    color:#999;
+}
+
+
+
+/* For Task4.html */
+
+a[href^="http"] {
+     color: #f70;
+ }
+
+a[href$="google.com"]{
+    color:#666;
+}
+
+[target^="_blank"]:after {
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: bottom;
+    margin-left: 5px;
+    height: 12px;
+    width: 14px;
+    content: "\2197";
+    border-top: 1px solid;
+    border-right: 1px solid;
+}
+
+
+
+/* For Task5.html */
+
+table{
+    border-collapse: collapse;
+}
+
+td
+{
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+tr:nth-child(2n){ background: #ddebf7;}
+td:nth-child(2n+3){background: #f2f2de;}
+
+
+
+
+/* For Task6.html */
+span {
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    padding: 0px 5px;
+}
+.red {
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+label {
+    text-decoration: underline;
+    margin-right: 10px;
+}
+input{
+    display: none;
+}
+label[for="red"]{
+    color: red; opacity: 0.3;
+}
+label[for="green"]{
+    color: green; opacity: 0.3;
+}
+label[for="blue"]{
+    color: blue; opacity: 0.3;
+}
+input[id="red"]:not(:checked) ~ label[for="red"]{
+    opacity: 1;
+}
+input[id="blue"]:not(:checked) ~ label[for="blue"]{
+    opacity: 1;
+}
+input[id="green"]:not(:checked) ~ label[for="green"]{
+    opacity: 1;
+}
+#red:checked~.red{
+    display: none;
+}
+#blue:checked~.blue{
+    display: none;
+}
+#green:checked~.green{
+    display: none;
+}
