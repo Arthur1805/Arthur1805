@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic); 
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td ,h1,h2,h3{
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.offer_block {
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.offer_title_top {
+    font-size: 20px;
+    color: #b7bbbe;
+}
+
+ .offer_price_box { 
+ 	width: 295px; 
+ 	border-radius: 5px; 
+ 	text-align: center;	 
+ 	font-family: 'PT Sans', sans-serif; 
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     margin-right: -5px;
+     border-top: solid 3px #ee8129;
+     display: inline-block;
+ } 
+ 
+ 
+ .offer_price_box_top { 
+ 	background-color: #ee8129; 
+ 	color: white; 
+    text-transform: uppercase; 
+ 	font-size: 24px; 
+ } 
+ 
+ 
+ .offer_price_box_top { 
+ 	padding: 5px; 
+ 	font-weight: bold; 
+ } 
+
+.offer_price_box_blue { 
+     border-top: solid 3px #37c2d3;
+ } 
+
+.offer_price_box_top_blue {
+    background-color: #37c2d3;
+}
+
+.offer_price_box_green { 
+     border-top: solid 3px #1cb79a;
+ } 
+
+.offer_price_box_top_green {
+    background-color: #1cb79a;
+}
+
+.row_price h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ 
+ .date:before { 
+ 	content: "$"; 
+ 	vertical-align: top; 
+ 	font-size: 24px; 
+ 	font-weight: 400; 
+ } 
+ 
+ 
+ .date { 
+ 	font-size: 64px; 
+ 	font-weight: bold; 
+     color: #35495a;
+ } 
+
+.month {
+     color: #35495a;
+}
+ 
+
+ .main { 
+ 	padding: 0 15px; 
+ } 
+ 
+ 
+ .main ul { 
+ 	padding: 0; 
+ } 
+ 
+ 
+ .main ul li { 
+ 	content: ""; 
+ 	background-image: url(img/check_03.jpg); 
+ 	background-repeat: no-repeat; 
+ 	background-position: 25px, 5px;
+    text-align: left; 
+ 	list-style: none; 
+ 	color: #888c94; 
+ 	padding: 5px 5px 5px 60px; 
+ 	margin-top: 1px; 
+ } 
+ 
+ .main ul li:nth-child(odd) { 
+ 	background-color: #edf5fd; 
+ } 
+ 
+ 
+ .main ul li:nth-child(even) { 
+ 	background-color: #f5f5f6; 
+ } 
+ 
+ 
+ .main_button { 
+ 	color: white; 
+    text-transform: uppercase; 
+ 	font-size: 12px; 
+ 	width: 260px; 
+ 	height: 40px; 
+ 	border-radius: 5px; 
+ 	margin-top: 5px; 
+ 	margin-bottom: 30px; 
+ } 
+ 
+ 
+ .main_button:active { 
+ 	border-bottom: none; 
+} 
+
+.main_button_orange {
+    background-color: #ec8136;
+    border: solid 1px #ee8129;  
+ 	border-bottom: solid 5px #b3560b; 
+}
+
+.main_button_blue {
+    background-color: #3371a6;
+    border: solid 1px #3371a6;  
+ 	border-bottom: solid 5px #16436a; 
+}
+
+.offer_price_box:hover {
+        height: 495px;
+        border: solid 3px #ee8129;
+    border-top: solid 15px #ee8129;
+}
+
+
+
+.offer_price_box_blue:hover {
+        border: solid 3px #37c2d3;
+    border-top: solid 15px #37c2d3;
+}
+
+.offer_price_box_green:hover {
+        border: solid 3px #1cb79a;
+    border-top: solid 15px #1cb79a;
+}
+
