@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.gallery {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.gallery_top {
+    font-size: 1.5em;
+    color: #909090;
+}
+
+.gallery_top h2 {
+    color: #2d394f;
+}
+
+.gallery_pic_list {
+    padding-top: 50px;
+    list-style-type: none;
+}
+
+.gallery_pic_list_item {
+    display: inline-block;
+    position: relative;
+    padding: 0 15px 15px 0;
+}
+
+
+.gallery_pic_hover {
+    position: absolute;
+    width: 96%;
+    height: 14%;
+    top: 0;
+    left: 0;
+    padding: 110px 0;
+    background-color: #25a6f7;
+    opacity: 0;
+}
+
+.gallery_pic_list_item div { 
+      -webkit-transition: all 0.5s ease-in-out; 
+      -moz-transition: all 0.5s ease-in-out; 
+      -ms-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out; 
+} 
+
+.gallery_pic_list_item:hover .gallery_pic_hover {
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0; 
+    opacity: 0.5; 
+}
+
+.gallery_pic_btn_zoom {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 2px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.gallery_pic_hover img {
+    padding-top: 12px;
+}
+
+.gallery_pic_btn_link {
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.gallery_pic_btn_zoom:hover, .gallery_pic_btn_link:hover {
+    background-color: #0063a2;
+}
+
